@@ -1,0 +1,208 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    background-color: #E4E4E4;
+    background-position: 0% 0%;
+    margin: 0px;
+	font-family: arial;
+}
+
+#categories {
+	display: flex;
+	justify-content: center; /* Pour centrer les éléments horizontalement */
+	align-items: center; /* Pour centrer les éléments verticalement */
+	font-size: 1.5vw;
+	position: sticky;
+	top: 0px;
+	padding: 5px;
+	border: 1px solid black;
+	/*border-radius: 10px;*/
+	margin-bottom: 20px;
+	background-color: white;
+}
+#categories a{
+	flex: 1;
+	display:block;
+	text-align:center;
+	color: red;
+	line-height: 2.5;
+	margin: 0 10px;
+}
+#categories a:link{ color: #FF0000; text-decoration-line: none; }
+#categories a:focus { color: black; }
+#categories a:hover { color: #757575; }
+#categories a:active { color: #971A1A; }
+
+
+#aller_haut {
+	position: fixed;
+	width: 25px;
+	height: 25px;
+	bottom: 50px;
+	right: 40px;
+	z-index: 2;
+}
+
+#aller_haut img {
+	width: 50px;
+	border-radius: 15px;
+}
+
+#titre1 {
+	margin-top: 100px;
+	font-size: 50px;
+	text-shadow: 3px 1px 2px #A5A8FD;
+}
+
+#titre2 {
+	font-family: cursive;
+	font-size: 25px;
+}
+
+
+.titre {
+	text-align: center;
+    color: #24289B;
+}
+
+.logo {
+	background-image: url(logoIUT.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 10vw;
+}
+
+#presentation {
+	margin: 50px;
+	font-family: Dosis;
+	font-size: 25px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+#contact {
+	
+	display: block;
+	font-family: sans-serif;
+	font-size: 140%;
+	position: sticky;
+	top: 0px;
+	padding: 10px;
+    border: 2px solid black;
+    border-radius: 0px;
+    margin-bottom: 2px;
+	background-color: #454545;
+	line-height: 3;
+	z-index: 1;
+}
+#contact a{ display:block; text-align:left; color: white; margin-left: 50px;}
+#contact a:link{ color: white; text-decoration-line: none; }
+#contact a:focus { color: black; }
+#contact a:hover { color: #757575; }
+#contact a:active { color: black; }
+
+#propos {
+	display: block;
+	font-family: sans-serif;
+	font-size: 300%;
+	font-weight : bold;
+	position: sticky;
+	top: 0px;
+	padding: 10px;
+    margin-bottom: 2px;
+	background-color: #E4E4E4;
+	line-height: 3;
+	z-index: 1;
+}
+#propos a{ display:block; text-align:center; color: black;}
+#propos a:link{ color: black; text-decoration-line: none; }
+#propos a:focus { color: black; }
+#propos a:hover { color: #757575; }
+#propos a:active { color: black; }
+
+#retour {
+	margin: 20px;
+	font-family: arial;
+	font-size: 25px;
+	text-align: left;
+}
+#retour a{ color: black; }
+#retour a:link{ color: #FF0000; text-decoration-line: none; }
+#retour a:focus { color: black; }
+#retour a:hover { color: #757575; }
+#retour a:active { color: #971A1A; }
+
+.parcoursTitre {
+	margin-left: 50px;
+	margin-top: 100px;
+	margin-right: 50px;
+	font-family: arial;
+	font-size: 30px;
+}
+
+.parcoursTitre2 {
+	margin-left: 25px;
+	margin-right: 25px;
+	font-family: arial;
+	font-size: 25px;
+}
+
+.parcoursText {
+	margin-left: 25px;
+	margin-right: 25px;
+	font-family: arial;
+	font-size: 20px;
+}
+
+#droite {
+	text-align: right;
+}
+
+#li {
+	font-size: 25px;
+	color: black;
+}
+
+.escalade {
+	background-image: url(escalade.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 100%;
+	height: 25vw;
+}
+
+.jeux {
+	background-image: url(jeuxvideo.jpeg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	width: 100%;
+	height: 25vw;
+
+}
+
+.musique {
+	background-image: url(musique.jpg);
+	background-repeat: no-repeat;
+	background-position: top right;
+	width: 100%;
+	height: 25vw;
+}
+
+.lecture {
+	background-image: url(livre.jpeg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	width: 100%;
+	height: 25vw;
+}
+
+.velo {
+	background-image: url(velo.jpeg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 100%;
+	height: 25vw;
+}
